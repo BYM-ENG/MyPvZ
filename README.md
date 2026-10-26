@@ -2,7 +2,7 @@
 
 基于现有 Windows 原型及素材，在 Unreal Engine 5.8.2 中重建二维塔防游戏。采用 C++、Paper 2D、UMG，目标平台为 Windows x64。
 
-当前阶段：**M00 工程基础已完成并通过本机验收**。下一阶段是 M01；当前工程不含原版素材或玩法，也尚未打包。
+当前阶段：**M01 空场景 Windows Development 打包已完成并通过本机启动、退出验收**。M00 已完成，下一阶段为 M02（未开始）；当前工程不含原版素材或玩法。
 
 ## 从这里继续
 
@@ -26,6 +26,14 @@
 中文工作目录请使用此脚本构建。它会临时将本项目映射到空闲的 `P:`，避开 MSVC 的响应文件路径编码问题，结束后自动移除映射。如果 `P:` 已被占用，可追加 `-BuildDrive R` 指定其他空闲盘符；不会覆盖已有盘符。
 
 然后使用上述引擎打开 `MyPvZ.uproject`。具体自检命令与结果见 [M00 验证记录](docs/validation/M00.md)，本机依赖与环境变更见 [环境记录](docs/ENVIRONMENT.md)。
+
+关闭编辑器后，可创建空场景的 Windows Development 包：
+
+```powershell
+.\Scripts\Package-Windows.ps1 -EngineRoot 'E:\develop\UE_5.8'
+```
+
+成功输出位于 `Packages/M01-Windows-Development/<时间戳>/Windows`，运行其中的 `MyPvZ.exe`；分发时需要完整 Windows 目录。空黑场景是当前阶段的预期结果，用 Alt+F4 正常退出。此脚本使用 `P:\UE5Migration` 形式的临时路径，支持 `-BuildDrive`，结束后清理映射。完整包不进入 Git；本机实际结果与限制见 [M01 验证记录](docs/validation/M01.md)。
 
 ## 仓库约定
 

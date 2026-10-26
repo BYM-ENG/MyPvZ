@@ -59,7 +59,8 @@ function Invoke-MyPvZLocalEnvironment {
 function Invoke-MyPvZAsciiProjectRoot {
     param(
         [scriptblock]$Action,
-        [ValidatePattern('^[A-Za-z]$')][string]$BuildDrive = 'P'
+        [ValidatePattern('^[A-Za-z]$')][string]$BuildDrive = 'P',
+        [switch]$MapParent
     )
 
     $projectRoot = Get-MyPvZProjectRoot
@@ -69,17 +70,29 @@ function Invoke-MyPvZAsciiProjectRoot {
     }
 
     # MSVC cannot decode this UE version's UTF-8 response paths on every
-    # Windows locale. Map only this project, without moving or copying it.
+    # Windows locale. Map a directory without moving or copying files.
     $driveName = $BuildDrive.ToUpperInvariant()
     $drive = "${driveName}:"
-    $aliasRoot = "${drive}\"
+    $driveRoot = "${drive}\"
+    $aliasRoot = $driveRoot
+    $mappingRoot = $projectRoot
+    if ($MapParent) {
+        # UAT nests a quoted -remoteini in its UBT target argument. A project
+        # at P:\ ends that value with a backslash and breaks nested quoting.
+        # Retain the project folder name so it becomes P:\UE5Migration.
+        $mappingRoot = Split-Path -Parent $projectRoot
+        $aliasRoot = [System.IO.Path]::Combine($driveRoot, (Split-Path -Leaf $projectRoot))
+    }
+    if ($aliasRoot -match '[^\x00-\x7F]') {
+        throw "Temporary build path '$aliasRoot' is not ASCII. Use an ASCII project folder name with -MapParent."
+    }
     if ((Get-PSDrive -Name $driveName -ErrorAction SilentlyContinue) -or
-        ([System.IO.DriveInfo]::GetDrives().Name -contains $aliasRoot)) {
+        ([System.IO.DriveInfo]::GetDrives().Name -contains $driveRoot)) {
         throw "Build drive $drive is already occupied. Choose another -BuildDrive letter."
     }
     $subst = Join-Path $env:SystemRoot 'System32\subst.exe'
-    & $subst $drive $projectRoot
-    if ($LASTEXITCODE -ne 0) { throw "Could not create temporary build mapping $drive -> $projectRoot" }
+    & $subst $drive $mappingRoot
+    if ($LASTEXITCODE -ne 0) { throw "Could not create temporary build mapping $drive -> $mappingRoot" }
     try {
         Write-Host "Temporary ASCII build path: $aliasRoot -> $projectRoot"
         & $Action $aliasRoot

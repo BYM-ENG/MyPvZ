@@ -1,57 +1,49 @@
 # 交接记录
 
-## M00 — 已完成并验收（2026-10-26）
+## M01 — 已完成并通过本机验收（2026-10-26）
 
-- 用户授权：仅执行并验收 M00，保存交接记录后结束；允许推送到 BYM-ENG/MyPvZ。
-- 模型要求：GPT-6.1 Sol / Ultra。工程实施委派给明确指定该模型和强度的子代理；主代理负责文档、独立验收和 Git 交付。
-- 不包含：原型运行、素材导入、玩法、资源烘焙、打包或 M01。
-- 技术基线：UE 5.8.2 / CL56702186，BuildSettingsVersion.V7 / Unreal5_8；VS2022，MSVC 14.44.35228（目录 14.44.35207），Windows SDK 10.0.26100.0。
-- 初始额度观察：2026-10-26 22:52（Asia/Hong_Kong），五小时已用 10%，周已用 16%。账户共享，不能归因于单个代理。
-- 远程初始状态：main 分支，初始提交 `7a732cd`，仅有 README。
+- 用户授权：仅执行 M01，更新交接、提交并推送到 BYM-ENG/MyPvZ，之后结束。M02 未开始。
+- 模型要求：GPT-6.1 Sol / Ultra，不更换；打包脚本子代理显式指定此模型与强度。
+- 起点：`main` / `cc7fb7f`，工作区干净；fetch 后与远程一致。M00 已验收，地图哈希保持不变。
+- 技术基线：UE 5.8.2 / CL56702186，VS2022，MSVC 14.44.35228（目录 14.44.35207），Windows SDK 10.0.26100.0，NETFXSDK 4.8。
 
-## 已交付
+## 本轮交付
 
-- 最小 `MyPvZ.uproject`、Game / Editor targets、C++ 运行模块、空 GameMode 和 PlayerController。
-- Paper2D / UMG 依赖；仅 Editor 启用 PythonScriptPlugin，不将其带入游戏运行 target。
-- `/Game/Maps/M00_Bootstrap`，设为编辑器及游戏默认地图；没有相机、灯光、植物、僵尸或玩法对象是 M00 的预期状态。
-- 可复现的构建、空地图创建及重载自检脚本；项目本地临时目录和派生缓存。
-- 22 模块计划、规则基线、架构合同、环境变更、验收记录及新聊天继续提示词。
+- `Scripts/Package-Windows.ps1`：Development Win64 BuildCookRun，显式 Cook 空地图，Stage / Pak / IoStore / Archive / Prereqs；每次独立输出目录和日志。
+- Common 新增可选 `-MapParent`，供打包使用 `P:\UE5Migration`；既有 M00 构建脚本默认行为保留，盘符占用保护和 finally 清理保留。
+- 脚本核对 UAT 退出码、启动器及 Game EXE、pak / utoc / ucas，并拒绝微软 debug CRT DLL；打包成功后仍需实际图形启动验收。
+- 更新状态、环境、README、继续提示词和 `validation/M01.md`。源码、地图、玩法和原型资源未修改。
 
-## 实际验收
+## 实际验收与复现
 
-以下三个脚本均已实际执行，退出码 0：
+关闭编辑器，在仓库根目录执行：
 
 ```powershell
-.\Scripts\Build-Editor.ps1 -EngineRoot 'E:\develop\UE_5.8'
-.\Scripts\Create-BootstrapMap.ps1 -EngineRoot 'E:\develop\UE_5.8'
-.\Scripts\Validate-Project.ps1 -EngineRoot 'E:\develop\UE_5.8'
+.\Scripts\Package-Windows.ps1 -EngineRoot 'E:\develop\UE_5.8'
 ```
 
-- 完整构建 `Result: Succeeded`，56.56 秒。
-- 空地图 6379 bytes；独立命令行进程重新加载地图及必要原生类成功，0 error / 0 warning。
-- 父代理独立打开实际 UE 图形编辑器，确认窗口 `MyPvZ - 虚幻编辑器`、地图标签 `M00_Bootstrap`、空场景和“所有已保存”；MapCheck 0 错误 / 0 警告。随后正常关闭。
-- GUI 启动还有 UE 自身的布局迁移、渲染线程变量及退出网络请求警告；未导致地图加载失败。命令行自检的“0 warning”不表示 GUI 全部日志无警告。
-- 原型仍为 154 文件，未修改或复制到项目；M00 工程没有原型目录依赖。
-- 构建产物、缓存、SDK 安装包和原始日志均被 Git 排除，避免上传机器标识等无关日志信息。
+- 成功运行编号 `20261026-233956-779`：Editor + Game 构建 83.89 秒，Cook 60.50 秒，BuildCookRun 199.46 秒；UAT 退出码 0。
+- 本机完整包：`Packages/M01-Windows-Development/20261026-233956-779/Windows`。从根目录运行 `MyPvZ.exe`，分发时保留整个 Windows 目录。
+- 父代理实际查看 `MyPvZ (64-bit Development PCD3D_SM5)` 空黑窗口；日志确认 D3D12、M00_Bootstrap 和 MyPvZGameMode。启动时编辑器未运行，P: 已移除。
+- Alt+F4 后窗口消失；ViewportClosed 退出状态 0，启动器退出码 0，游戏/编辑器进程均已退出。
+- 包内微软 debug CRT / PDB / UnrealEditor / PythonScriptPlugin 文件均为 0，包含引擎随附的 x64 / ARM64 VC Redist。
+- 完整日志位于忽略目录 `Saved/Logs/M01-Package-Windows-20261026-233956-779`；GUI 日志为 `Saved/Logs/M01-Standalone-GUI-20261026-2343.log`。详细证据和 Game EXE 哈希见 `validation/M01.md`。
 
-详细证据见 `validation/M00.md`。本文件随 M00 源码检查点提交，实际提交标识以 Git 历史和远程 main 为准。
+## 已处理问题与限制
 
-## 环境修复与注意事项
-
-- 补齐微软签名 .NET Framework 4.8 Developer Pack；安装退出码 0，未重启。来源、哈希和本地日志位置见 `ENVIRONMENT.md`。
-- 中文路径导致 MSVC 响应文件编码问题：后续必须使用构建脚本。脚本临时映射未占用的 P:，结束清理；盘符占用时用 `-BuildDrive R` 等其他空闲盘符。
-- 初次失败构建的中间缓存保留在 `Saved/Diagnostics/Intermediate-BeforeAscii`，不用提交、不用当作源码恢复。
-- 后续打包涉及 C++ 编译时也应复用 ASCII 路径处理，不要在 M01 再直接使用中文项目路径运行 UBT。
-- M00 自检验证空地图和空骨架，不等于游戏功能验收。打包程序能否独立运行尚未验证，属于 M01。
+- 初次 UAT 退出 8：根目录 `P:\` 的 `-remoteini` 嵌套引号解析错误；改用父目录映射后的完整重试已通过。失败日志保留于 `Saved/Logs/M01-Package-Windows-20261026-233726-331`。
+- Cook 有 1 条主机名解析警告；运行有空 HUD 的 SpawnActor 警告、NVIDIA TSR 回退和渲染线程变量警告。无 Error / Fatal / Assertion，正常启动退出；细节见验证记录，不宣称日志零警告。
+- 只验收现有本机环境的空场景 Development 包；干净 Windows 机器依赖安装、素材效果、玩法、最终 Shipping 包尚未验收。
+- 本轮没有安装软件、修改引擎或修改原型。完整运行包、缓存、原始日志和安装程序均不进入 Git。
 
 ## 用量观察
 
-开始快照（22:52）：五小时已用 10%，周已用 16%。验收结束快照（23:20）：五小时已用 40%，周已用 21%，同一统计窗口未重置。观察增幅分别为 30 和 5 个百分点，包含本轮主代理、子代理及可能同期账户活动，不是精确归因或后续模块的消耗保证。
+开始（约 23:32）：五小时已用 45%，周已用 22%。主要验证前（23:36）：49% / 22%。图形验收后（约 23:46）：56% / 23%。交付前结束快照（23:49）：58% / 24%，同一窗口未重置，观察增幅为 13 / 2 个百分点。账户及子代理共享额度，观察差值不能精确归因。
 
-指定模型的工程子代理曾短暂报容量不足；使用同一 GPT-6.1 Sol Ultra 恢复执行，没有自动换模型。
+本文件随 M01 检查点提交，最终提交标识以 Git 历史和远程 main 为准。
 
-## 下一步
+## 下一入口
 
-只在用户发起后执行 **M01：空场景首次 Windows Development 打包，脱离编辑器启动并退出验收**。不导入素材、不实现玩法、不自动进入 M02。
+只在用户明确发起后执行 **M02：少量图片/动画/音频导入试验**，验收透明度、帧序、缩放和音频。先核对当前 Git 状态和包记录，按需读取 RULES、ARCHITECTURE 与 M01 验证记录；不要重建工程或提前进行 M03 全量导入。新聊天提示词见 `CONTINUE.md`。
 
-新聊天使用 `CONTINUE.md` 的提示词即可，先读当前 STATUS 和此交接，不必导入整个历史聊天。
+M00 环境修复与完整证据仍保留在 `ENVIRONMENT.md`、`validation/M00.md` 和 Git 历史。

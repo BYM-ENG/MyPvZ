@@ -43,3 +43,11 @@ Unable to instantiate module 'SwarmInterface': Could not find NetFxSDK install d
 `Build-Editor.ps1` 因此在非 ASCII 项目路径下临时使用 `subst` 创建本项目的 ASCII 盘符别名，默认 `P:`，可用 `-BuildDrive` 指定其他未占用盘符。构建参数、临时目录和缓存路径使用该别名，正常完成或异常退出后由 `finally` 清理本次映射；不移动仓库，不修改引擎，不关闭 PCH。
 
 首次切换别名前，旧 Unicode 路径已写入中间产物缓存。M00 将这些生成文件保存在忽略目录 `Saved/Diagnostics/Intermediate-BeforeAscii`，然后干净生成。后续请使用脚本构建，避免重新混入中文根路径的编译缓存；不要在编辑器内直接触发源码构建。
+
+## M01 打包路径与依赖
+
+M01 实际发现 UAT 的 `-remoteini` 嵌套引号无法正确处理工程位于 `P:\` 盘符根目录的情况。`Package-Windows.ps1` 因此启用 Common 的可选 `-MapParent`：临时映射父目录，工程使用 `P:\UE5Migration`，归档仍写入真实中文路径。M00 构建脚本的默认行为保留；不要直接复用根盘符路径调用 BuildCookRun。打包结束后清理本次盘符映射，不移动或复制原型。
+
+本机 VS 实际目录为 `E:\Microsoft Visual Studio\2022\Community`。引擎本版 `-prereqs` 归档 `vc_redist.x64.exe` 和 `vc_redist.arm64.exe`；旧版 `UEPrereqSetup_x64.exe` 不存在是此版本的布局，不能据此判定缺依赖。M01 没有安装额外软件；干净机器上的依赖安装尚未验收。
+
+Cook / IoStore 阶段自动使用 Zen package store，数据位于项目 `DerivedDataCache/Zen`，引擎同时写入用户 AppData 下的 Zen 程序/版本元数据；这与 M00 配置的文件系统 DDC 是不同用途。独立游戏从已归档的 pak / IoStore 容器加载，本次启动时 P: 已不存在。
