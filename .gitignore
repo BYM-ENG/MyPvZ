@@ -26,3 +26,5 @@ Thumbs.db
 Desktop.ini
 .env
 .env.*
+__pycache__/
+*.py[cod]

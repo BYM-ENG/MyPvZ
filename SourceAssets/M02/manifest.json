@@ -1,0 +1,140 @@
+{
+  "module": "M02",
+  "scope": "11 standing-zombie PNGs and one short WAV; tracked copies only",
+  "trial_fps": 8.0,
+  "fps_provenance": "Trial/default 8 fps for import validation; original frame rate is unknown.",
+  "pixels_per_unreal_unit": 1.0,
+  "frames": [
+    {
+      "frame": 1,
+      "source": "../protptype/res/zm_stand/1.png",
+      "copy": "zm_stand/1.png",
+      "sha256": "f9d0e972a1e48dcf604280c0b16e2671e659ff1e1dde7aaa562bf0477ab6d0c6",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 2,
+      "source": "../protptype/res/zm_stand/2.png",
+      "copy": "zm_stand/2.png",
+      "sha256": "d81d932a377c080266a70612f1796689aaa78865618227b3a6d4d160d9d5054c",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 3,
+      "source": "../protptype/res/zm_stand/3.png",
+      "copy": "zm_stand/3.png",
+      "sha256": "bbdd4386b5f7330910866ecab561bc272cdd00ba362f1632a81b65a2137a8cee",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 4,
+      "source": "../protptype/res/zm_stand/4.png",
+      "copy": "zm_stand/4.png",
+      "sha256": "0df8491d433111cfb40fec8f3100e78ccffc648ed9e8101a5ac288a9d270d9f1",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 5,
+      "source": "../protptype/res/zm_stand/5.png",
+      "copy": "zm_stand/5.png",
+      "sha256": "77841a6b57540616a8e386be9eeaa8837a71795887a840498165c1a7ef7c8743",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 6,
+      "source": "../protptype/res/zm_stand/6.png",
+      "copy": "zm_stand/6.png",
+      "sha256": "59830769a6692707dfa9cf8cce3e9634b5a65b93189fb1a0b0cd7ca7cc7cd388",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 7,
+      "source": "../protptype/res/zm_stand/7.png",
+      "copy": "zm_stand/7.png",
+      "sha256": "c0a2ad102af57af2e3a8ea8f74d0db950f640e86604413f622fa3369c9badef8",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 8,
+      "source": "../protptype/res/zm_stand/8.png",
+      "copy": "zm_stand/8.png",
+      "sha256": "7bf9bb9f3c5714eab276d2b44bf85b09be6cf8c451c7a09676ca31d568c8e177",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 9,
+      "source": "../protptype/res/zm_stand/9.png",
+      "copy": "zm_stand/9.png",
+      "sha256": "185a3f01771e4e888a8d2b6706623e6129dfb2bd0746a52d6d1ba1b66aa4b0ca",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 10,
+      "source": "../protptype/res/zm_stand/10.png",
+      "copy": "zm_stand/10.png",
+      "sha256": "9d5aec85822369736d711a1fc731f8746449c2f6775f53ab594fc042db916041",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    },
+    {
+      "frame": 11,
+      "source": "../protptype/res/zm_stand/11.png",
+      "copy": "zm_stand/11.png",
+      "sha256": "f641dfd47cebead1f8359bbe6dd857a55a849d09ad16c67b1dfc34ef147d4621",
+      "width": 166,
+      "height": 144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partial_alpha_pixels": 0
+    }
+  ],
+  "audio": {
+    "source": "../protptype/res/seed.wav",
+    "copy": "seed.wav",
+    "sha256": "ef6199cb32db28ccbbc3a1e49fe36a01fde87433675d910a1886af58c953e02b",
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "sample_rate": 22050,
+    "frames": 17856,
+    "duration_seconds": 0.809795918367347
+  }
+}
