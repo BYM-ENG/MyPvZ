@@ -31,3 +31,7 @@
 - 资源命名与数值字段在 M02/M03/M04 落地；帧文件必须按数字顺序而非字符串顺序排列。
 - 源码、配置、必需 `.umap`/`.uasset`、脚本及文档入库；编译产物、派生缓存和完整运行包不直接入库。
 - 当前原型目录不在 Git 仓库内，M00 工程必须能够在没有该目录时构建。
+
+## M04 已落地的网格入口
+
+`/Game/Maps/PvZ_Lawn` 的一个 `AMyPvZBoard` 持有背景、正交相机和 `FMyPvZGridLayout`。PlayerController 将游戏视口像素经实际相机投影转为整数格子，并广播 `OnGridCellPressed(Row,Column)`；后续系统使用此事件与 Board 转换接口。坐标、半开边界及诊断反馈见 `GRID.md`。占用、经济和种植仍由对应后续模块实施；默认启动地图暂保留 M00_Bootstrap。

@@ -2,7 +2,7 @@
 
 基于现有 Windows 原型及素材，在 Unreal Engine 5.8.2 中重建二维塔防游戏。采用 C++、Paper 2D、UMG，目标平台为 Windows x64。
 
-当前阶段：**M03 完整资源导入及清单已通过本机验收**。M00–M03 已完成，M04 未开始。150 个原媒体映射至 275 个生产资源，重复导入及引用检查通过；当前没有玩法。资源合同见 [ASSETS.md](docs/ASSETS.md)，结果和限制见 [M03 验证记录](docs/validation/M03.md)。
+当前阶段：**M04 摄像机、草坪与网格命中已通过本机验收**。M00–M04 已完成，M05 未开始。打开 `/Game/Maps/PvZ_Lawn` 后 Play，左键点击草坪显示黄色选择框；当前有 3×9 网格，尚无种植、阳光或战斗。坐标与接口见 [GRID.md](docs/GRID.md)，结果和限制见 [M04 验证记录](docs/validation/M04.md)。
 
 ## 从这里继续
 
