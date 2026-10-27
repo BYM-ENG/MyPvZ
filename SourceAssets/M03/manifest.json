@@ -1,0 +1,3014 @@
+{
+  "schema_version": 1,
+  "base": "/Game/PvZ",
+  "items": [
+    {
+      "source": "res/1.jpg",
+      "kind": "image",
+      "sha256": "af527dee9537debf97950d647b4d9f065b002fb10456c1afbb81673cb934cbc4",
+      "bytes": 62668,
+      "canonical_source": "res/1.jpg",
+      "texture": "/Game/PvZ/Textures/T_res_1",
+      "sprite": "/Game/PvZ/Sprites/S_res_1",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "res/Cards/card_1.png",
+      "kind": "image",
+      "sha256": "efc38f6f6793177138e752523a77bbba93fd43e20b9186451f8c837686584985",
+      "bytes": 25305,
+      "canonical_source": "res/Cards/card_1.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_1",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_1",
+      "width": 65,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5850,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/Cards/card_2.png",
+      "kind": "image",
+      "sha256": "aa48fdb2f65e1ff2f94e61e6f2a063c41935cfeeae574f576754d9b8f9bb7ff9",
+      "bytes": 13992,
+      "canonical_source": "res/Cards/card_2.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_2",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_2",
+      "width": 64,
+      "height": 89,
+      "alpha": {
+        "zero": 0,
+        "full": 5696,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/Cards/card_3.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/bar5.png",
+      "kind": "image",
+      "sha256": "99e96a11b27547b099d1649cb90e322829e227f64d6f11b7aa0dad93c1c17dd8",
+      "bytes": 22153,
+      "canonical_source": "res/bar5.png",
+      "texture": "/Game/PvZ/Textures/T_res_bar5",
+      "sprite": "/Game/PvZ/Sprites/S_res_bar5",
+      "width": 612,
+      "height": 102,
+      "alpha": {
+        "zero": 29,
+        "full": 62336,
+        "partial": 59
+      }
+    },
+    {
+      "source": "res/bg.jpg",
+      "kind": "image",
+      "sha256": "74505353b2fa9380b1cddd35c61b9c1d9000fe4a312d30519a6a86e108e686f1",
+      "bytes": 133657,
+      "canonical_source": "res/bg.jpg",
+      "texture": "/Game/PvZ/Textures/T_res_bg",
+      "sprite": "/Game/PvZ/Sprites/S_res_bg",
+      "width": 1400,
+      "height": 600
+    },
+    {
+      "source": "res/bong.wav",
+      "kind": "audio",
+      "sha256": "401b7d7a9aa12612adba80258d22d493a6bf9c0dba7b6f6dc7faffbbe791244d",
+      "bytes": 347470,
+      "canonical_source": "res/bong.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_bong",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 44100,
+        "frames": 86848
+      }
+    },
+    {
+      "source": "res/bullets/bullet_blast.png",
+      "kind": "image",
+      "sha256": "bfb7db69bdf36dc1e15701fb50afeadc7108fc5cc81f671c55570ec5faf67248",
+      "bytes": 1507,
+      "canonical_source": "res/bullets/bullet_blast.png",
+      "texture": "/Game/PvZ/Textures/T_res_bullets_bullet_blast",
+      "sprite": "/Game/PvZ/Sprites/S_res_bullets_bullet_blast",
+      "width": 52,
+      "height": 46,
+      "alpha": {
+        "zero": 1921,
+        "full": 471,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/bullets/bullet_normal.png",
+      "kind": "image",
+      "sha256": "1d1d7f6ddf139b8e414c27a3f3f8ae173b9a912485f3193eff824a2aa82562a4",
+      "bytes": 1706,
+      "canonical_source": "res/bullets/bullet_normal.png",
+      "texture": "/Game/PvZ/Textures/T_res_bullets_bullet_normal",
+      "sprite": "/Game/PvZ/Sprites/S_res_bullets_bullet_normal",
+      "width": 24,
+      "height": 24,
+      "alpha": {
+        "zero": 131,
+        "full": 445,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/eatplant.wav",
+      "kind": "audio",
+      "sha256": "5c67fe0430d9beee7fae9c1d7f6d9db5ce4754425968c67b6578b7458b30fe9b",
+      "bytes": 179804,
+      "canonical_source": "res/eatplant.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_eatplant",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 44100,
+        "frames": 44928
+      }
+    },
+    {
+      "source": "res/fail.png",
+      "kind": "image",
+      "sha256": "1571dd95f7884d9c63f9a1d1fbc6282990cf0128858881cf5a7293f68813728b",
+      "bytes": 852360,
+      "canonical_source": "res/fail.png",
+      "texture": "/Game/PvZ/Textures/T_res_fail",
+      "sprite": "/Game/PvZ/Sprites/S_res_fail",
+      "width": 900,
+      "height": 600,
+      "alpha": {
+        "zero": 0,
+        "full": 540000,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/hitZB.wav",
+      "kind": "audio",
+      "sha256": "b4e1320cfa59923c58936875d725e0eaf3cc2463aff19ddd2b187f5f0b26ba6e",
+      "bytes": 71502,
+      "canonical_source": "res/hitZB.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_hitZB",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 22050,
+        "frames": 17856
+      }
+    },
+    {
+      "source": "res/menu.png",
+      "kind": "image",
+      "sha256": "5248352ed9f1db6d4b76af27f914b7ce1e4e11d9a8237dc89b07116c7385a8af",
+      "bytes": 493442,
+      "canonical_source": "res/menu.png",
+      "texture": "/Game/PvZ/Textures/T_res_menu",
+      "sprite": "/Game/PvZ/Sprites/S_res_menu",
+      "width": 900,
+      "height": 600,
+      "alpha": {
+        "zero": 0,
+        "full": 540000,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/menu1.png",
+      "kind": "image",
+      "sha256": "c4c3a945192b1cae7e90e560377f43a3851b601ad6f6ef05e8d9c53aca66e58e",
+      "bytes": 37039,
+      "canonical_source": "res/menu1.png",
+      "texture": "/Game/PvZ/Textures/T_res_menu1",
+      "sprite": "/Game/PvZ/Sprites/S_res_menu1",
+      "width": 331,
+      "height": 145,
+      "alpha": {
+        "zero": 14829,
+        "full": 32287,
+        "partial": 879
+      }
+    },
+    {
+      "source": "res/menu2.png",
+      "kind": "image",
+      "sha256": "b674a6d207ec62a39e903917fc3fee834c1a2f126ce3fce18b3683973581d7c3",
+      "bytes": 40423,
+      "canonical_source": "res/menu2.png",
+      "texture": "/Game/PvZ/Textures/T_res_menu2",
+      "sprite": "/Game/PvZ/Sprites/S_res_menu2",
+      "width": 331,
+      "height": 147,
+      "alpha": {
+        "zero": 15491,
+        "full": 32287,
+        "partial": 879
+      }
+    },
+    {
+      "source": "res/seed.wav",
+      "kind": "audio",
+      "sha256": "ef6199cb32db28ccbbc3a1e49fe36a01fde87433675d910a1886af58c953e02b",
+      "bytes": 71502,
+      "canonical_source": "res/seed.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_seed",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 22050,
+        "frames": 17856
+      }
+    },
+    {
+      "source": "res/showZB.wav",
+      "kind": "audio",
+      "sha256": "72fbb9c2a6f160f6d3479097da583ab458bbece62ccccd52d7441fcd5e8f53da",
+      "bytes": 159054,
+      "canonical_source": "res/showZB.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_showZB",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 22050,
+        "frames": 39744
+      }
+    },
+    {
+      "source": "res/sunshine.wav",
+      "kind": "audio",
+      "sha256": "3b3bec692f1eb886f3d58dcad178e23371f36aaf67003d8ddf78ce6aaa1d3edd",
+      "bytes": 200014,
+      "canonical_source": "res/sunshine.wav",
+      "sound": "/Game/PvZ/Audio/SW_res_sunshine",
+      "wav": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate": 44100,
+        "frames": 49984
+      }
+    },
+    {
+      "source": "res/sunshine/1.png",
+      "kind": "image",
+      "sha256": "3a1ad182c808b5fda4e293eed823509ff45291f0e874edf8f1c3ac741c6f35e1",
+      "bytes": 3563,
+      "canonical_source": "res/sunshine/1.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_01",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_01",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3554,
+        "full": 2687,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/10.png",
+      "kind": "image",
+      "sha256": "79a5c5afbe4d3e73ee536ae3ffa677d551a1219663e79e5f818cf83d59772e1d",
+      "bytes": 3460,
+      "canonical_source": "res/sunshine/10.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_10",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_10",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3638,
+        "full": 2603,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/11.png",
+      "kind": "image",
+      "sha256": "5e18c33c3bb5c6f4c6a2e3e830d34cab410f87cfba8796d8385be4ffd6d3299c",
+      "bytes": 3460,
+      "canonical_source": "res/sunshine/11.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_11",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_11",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3667,
+        "full": 2574,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/12.png",
+      "kind": "image",
+      "sha256": "0f4333593f76cf556715172f705d39e84504ef6a3da33ef93ae74b2736628381",
+      "bytes": 3348,
+      "canonical_source": "res/sunshine/12.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_12",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_12",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3705,
+        "full": 2536,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/13.png",
+      "kind": "image",
+      "sha256": "e411a8b9e5fc915685f8b731681d878deb4df0504e878a21c51419b3d2d77507",
+      "bytes": 3319,
+      "canonical_source": "res/sunshine/13.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_13",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_13",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3731,
+        "full": 2510,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/14.png",
+      "kind": "image",
+      "sha256": "e4bf034cc09aaa4b2172eb93bb089407ebd1993850558a46584860024fa09088",
+      "bytes": 3278,
+      "canonical_source": "res/sunshine/14.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_14",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_14",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3861,
+        "full": 2380,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/15.png",
+      "kind": "image",
+      "sha256": "b5916d8b494a1ed99bc249be0ab5352f29a4ccb3efa079cc9152ec3a384a9176",
+      "bytes": 3151,
+      "canonical_source": "res/sunshine/15.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_15",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_15",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 4003,
+        "full": 2238,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/16.png",
+      "kind": "image",
+      "sha256": "de457e7a5512fa0983cc75c02402fcbce8221a25d74c854e6e4e260438b700c0",
+      "bytes": 3189,
+      "canonical_source": "res/sunshine/16.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_16",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_16",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3877,
+        "full": 2364,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/17.png",
+      "kind": "image",
+      "sha256": "1ea039b60409b59d4a723f396058cac480703ec6521a86f7bf4100356f26ced9",
+      "bytes": 3177,
+      "canonical_source": "res/sunshine/17.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_17",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_17",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3904,
+        "full": 2337,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/18.png",
+      "kind": "image",
+      "sha256": "6c875b3705243050becab8de9a4b29e1c69a3c253c6afeb5895b2792c4fe8bae",
+      "bytes": 3363,
+      "canonical_source": "res/sunshine/18.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_18",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_18",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3842,
+        "full": 2399,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/19.png",
+      "kind": "image",
+      "sha256": "7d37273551a25c2a7a1958a0e824085cf4f35c6030597de4ab647df6f8217e18",
+      "bytes": 3195,
+      "canonical_source": "res/sunshine/19.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_19",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_19",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3794,
+        "full": 2447,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/2.png",
+      "kind": "image",
+      "sha256": "661bc5df80e9bed40caedb647163ac8f5cc5c43a6a52c5b92d749f5681438d70",
+      "bytes": 3548,
+      "canonical_source": "res/sunshine/2.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_02",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_02",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3547,
+        "full": 2694,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/20.png",
+      "kind": "image",
+      "sha256": "1ac4863892d02855b91c0c9bb34134c6aaa7cb028d4b7a8053f06ea20cff944e",
+      "bytes": 3361,
+      "canonical_source": "res/sunshine/20.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_20",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_20",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3774,
+        "full": 2467,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/21.png",
+      "kind": "image",
+      "sha256": "d24b8f9b7aa0a0bc50c4832ceaa8e261a97ca4fdfb456f12edee8e40e73a21fd",
+      "bytes": 3367,
+      "canonical_source": "res/sunshine/21.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_21",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_21",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3724,
+        "full": 2517,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/22.png",
+      "kind": "image",
+      "sha256": "110d7556d07531c953768dc6d69f7b427d4011f6f031bbd5b41b6091131f34c0",
+      "bytes": 3415,
+      "canonical_source": "res/sunshine/22.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_22",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_22",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3695,
+        "full": 2546,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/23.png",
+      "kind": "image",
+      "sha256": "647a6de10800371ddf7db80173056805d21328e0ea2c6519c3a419f8aff1f177",
+      "bytes": 3428,
+      "canonical_source": "res/sunshine/23.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_23",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_23",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3662,
+        "full": 2579,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/24.png",
+      "kind": "image",
+      "sha256": "33a69822ac7c8120e2e41248042a2b373cf75997b20f74dae3ae2a892b85e54a",
+      "bytes": 3445,
+      "canonical_source": "res/sunshine/24.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_24",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_24",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3622,
+        "full": 2619,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/25.png",
+      "kind": "image",
+      "sha256": "f9544009165e12a4583709bde27191331263ce3ab81a928b1d8e5f8bee2518ef",
+      "bytes": 3412,
+      "canonical_source": "res/sunshine/25.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_25",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_25",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3605,
+        "full": 2636,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/26.png",
+      "kind": "image",
+      "sha256": "639a74a21e25093493b66940ad651264a12dfc78ccf61d1077b026720f28a253",
+      "bytes": 3407,
+      "canonical_source": "res/sunshine/26.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_26",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_26",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3690,
+        "full": 2551,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/27.png",
+      "kind": "image",
+      "sha256": "fdd9ca6dd4594fb15deea021b7f47471fef0d455a2e53ebcbd09cecef2c1571b",
+      "bytes": 3569,
+      "canonical_source": "res/sunshine/27.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_27",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_27",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3557,
+        "full": 2684,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/28.png",
+      "kind": "image",
+      "sha256": "1bb80497e79786ec63062cc89b5acb267bdc16777744fb42ff0f94444e01314e",
+      "bytes": 3459,
+      "canonical_source": "res/sunshine/28.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_28",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_28",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3642,
+        "full": 2599,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/29.png",
+      "kind": "image",
+      "sha256": "f572b03ac80fd3e6d1ea2eca0cd5db51ef7af2238ff1b6158a56b162feabe7e4",
+      "bytes": 3524,
+      "canonical_source": "res/sunshine/29.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_29",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_29",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3564,
+        "full": 2677,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/3.png",
+      "kind": "image",
+      "sha256": "4a6dd9329f9c34eb02aa7759b481865646a3c3870bf6a4d0db07c50d6dbc0d71",
+      "bytes": 3564,
+      "canonical_source": "res/sunshine/3.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_03",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_03",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3557,
+        "full": 2684,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/4.png",
+      "kind": "image",
+      "sha256": "a527bcbc9b49786c2f50386fdc9257c0b1eb2bde62c1e519ef2c41486af41f47",
+      "bytes": 3613,
+      "canonical_source": "res/sunshine/4.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_04",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_04",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3548,
+        "full": 2693,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/5.png",
+      "kind": "image",
+      "sha256": "93e9fd94e5aa3bb6efbd0529c4e4e3b46bbd067c51b6bc02e8ad3934c2eb0ef4",
+      "bytes": 3481,
+      "canonical_source": "res/sunshine/5.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_05",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_05",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3572,
+        "full": 2669,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/6.png",
+      "kind": "image",
+      "sha256": "87789d96a9858379a400111008e3a54a02c1c1f83fef622e3ce5998182002011",
+      "bytes": 3560,
+      "canonical_source": "res/sunshine/6.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_06",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_06",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3561,
+        "full": 2680,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/7.png",
+      "kind": "image",
+      "sha256": "f5689fd598c4943f5c1cbc2434b231b2600ecaabaf548717f59cf09c29640739",
+      "bytes": 3487,
+      "canonical_source": "res/sunshine/7.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_07",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_07",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3571,
+        "full": 2670,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/8.png",
+      "kind": "image",
+      "sha256": "f3eb758c9b7c1f2ee412edf2eb8ef2164736f0061ef677c5b27ed110edc41275",
+      "bytes": 3446,
+      "canonical_source": "res/sunshine/8.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_08",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_08",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3615,
+        "full": 2626,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/sunshine/9.png",
+      "kind": "image",
+      "sha256": "65d66627c7324acf98e52e7ad096713d69e40c609db599feddf6db3afb75c16f",
+      "bytes": 3477,
+      "canonical_source": "res/sunshine/9.png",
+      "texture": "/Game/PvZ/Textures/T_Sun_09",
+      "sprite": "/Game/PvZ/Sprites/S_Sun_09",
+      "width": 79,
+      "height": 79,
+      "alpha": {
+        "zero": 3609,
+        "full": 2632,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/win.png",
+      "kind": "image",
+      "sha256": "f31d902b209bd737e4564263d6ba0e367240f6df3fef64aeb7194d63df6f9e6e",
+      "bytes": 820568,
+      "canonical_source": "res/win.png",
+      "texture": "/Game/PvZ/Textures/T_res_win",
+      "sprite": "/Game/PvZ/Sprites/S_res_win",
+      "width": 900,
+      "height": 600,
+      "alpha": {
+        "zero": 0,
+        "full": 540000,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/1.png",
+      "kind": "image",
+      "sha256": "b4d8c308c8eb398985161dcc7afab6f8692e80ca572a78e11958d71a39341398",
+      "bytes": 4548,
+      "canonical_source": "res/zhiwu/0/1.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_01",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_01",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3201,
+        "full": 2424,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/10.png",
+      "kind": "image",
+      "sha256": "b7e1bb11d7509de2adbee49c7c399c65f0ed4b14f24e78235a859adffaf7e70b",
+      "bytes": 4466,
+      "canonical_source": "res/zhiwu/0/10.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_10",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_10",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3342,
+        "full": 2283,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/11.png",
+      "kind": "image",
+      "sha256": "1ca0d3700c076d41dfcddc72258f886f6df013c1b9e78ce4626b0c8cf343dc9f",
+      "bytes": 4410,
+      "canonical_source": "res/zhiwu/0/11.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_11",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_11",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3313,
+        "full": 2312,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/12.png",
+      "kind": "image",
+      "sha256": "f1071a833c57e5e264b2932387f1d0d082bd4844326dc1e368c98a91ba64ed94",
+      "bytes": 4444,
+      "canonical_source": "res/zhiwu/0/12.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_12",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_12",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3181,
+        "full": 2444,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/13.png",
+      "kind": "image",
+      "sha256": "29f624b611f827a18058af464d9d728e20e1cc5ea35c84eb785d21ed51cf86aa",
+      "bytes": 4676,
+      "canonical_source": "res/zhiwu/0/13.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_13",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_13",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3163,
+        "full": 2462,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/2.png",
+      "kind": "image",
+      "sha256": "ea756c114e66ba065a6ce7698c2aebf8eef742cf46889e0ede5ae749db5b77db",
+      "bytes": 4515,
+      "canonical_source": "res/zhiwu/0/2.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_02",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_02",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3215,
+        "full": 2410,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/3.png",
+      "kind": "image",
+      "sha256": "e7cd6bfe7bd349dce32cf000af770f04287aed57dceb3516a7d7de41041920a6",
+      "bytes": 4498,
+      "canonical_source": "res/zhiwu/0/3.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_03",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_03",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3317,
+        "full": 2308,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/4.png",
+      "kind": "image",
+      "sha256": "e3df8b0f0da34075ca79453f6ec9e00815a4d3e6a4611f928fa873934f4e34c3",
+      "bytes": 4287,
+      "canonical_source": "res/zhiwu/0/4.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_04",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_04",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3366,
+        "full": 2259,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/5.png",
+      "kind": "image",
+      "sha256": "f7c37e32e36efb764821c7492fcb96df7dcd02c6afe9a589473097dc3d13b95b",
+      "bytes": 4593,
+      "canonical_source": "res/zhiwu/0/5.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_05",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_05",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3269,
+        "full": 2356,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/6.png",
+      "kind": "image",
+      "sha256": "1a856a121a6bc37126b81542925f47ae0f70318eb03ef5447e885027d7be9978",
+      "bytes": 4483,
+      "canonical_source": "res/zhiwu/0/6.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_06",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_06",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3171,
+        "full": 2454,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/7.png",
+      "kind": "image",
+      "sha256": "047a319368ee6980e19a4f33e1c0772b390879e058d2ee42692591764d2a1527",
+      "bytes": 4594,
+      "canonical_source": "res/zhiwu/0/7.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_07",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_07",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3131,
+        "full": 2494,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/8.png",
+      "kind": "image",
+      "sha256": "b0c4ba1517d1c3f877570f9c0fe1b5f8a21151b777841921d4423e51e94b2702",
+      "bytes": 4589,
+      "canonical_source": "res/zhiwu/0/8.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_08",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_08",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3155,
+        "full": 2470,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/0/9.png",
+      "kind": "image",
+      "sha256": "e45beea5e1c355c352cad325e519c9d12990d7e6f1f6dcf4dc8159d481c14cc2",
+      "bytes": 4469,
+      "canonical_source": "res/zhiwu/0/9.png",
+      "texture": "/Game/PvZ/Textures/T_Peashooter_09",
+      "sprite": "/Game/PvZ/Sprites/S_Peashooter_09",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 3247,
+        "full": 2378,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/1.png",
+      "kind": "image",
+      "sha256": "d749c51a89f022c1f21169b6e1a5a89256d820301ea52368b0b7cc5b55ac418d",
+      "bytes": 6447,
+      "canonical_source": "res/zhiwu/1/1.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_01",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_01",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2369,
+        "full": 3256,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/10.png",
+      "kind": "image",
+      "sha256": "3b20c1f66444f1e8d8276e1bd22182bb3a13bf42a6b35a454e28b5f36c26b1b0",
+      "bytes": 6423,
+      "canonical_source": "res/zhiwu/1/10.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_10",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_10",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2378,
+        "full": 3247,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/11.png",
+      "kind": "image",
+      "sha256": "09220d70559320d3bbed0505f572cca9a80b11e0b99a69cf2c7ed2dea1f8d7cf",
+      "bytes": 6493,
+      "canonical_source": "res/zhiwu/1/11.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_11",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_11",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2334,
+        "full": 3291,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/12.png",
+      "kind": "image",
+      "sha256": "177e07979cf81b6bac7ea41f99bd1ea6a89b15e72760388cd955915059b725f0",
+      "bytes": 6432,
+      "canonical_source": "res/zhiwu/1/12.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_12",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_12",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2357,
+        "full": 3268,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/13.png",
+      "kind": "image",
+      "sha256": "3adea1588a6dc0d199046adee5d86b7e2d018e94f59ccc4f2387dd0cd30ae63b",
+      "bytes": 6417,
+      "canonical_source": "res/zhiwu/1/13.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_13",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_13",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2385,
+        "full": 3240,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/14.png",
+      "kind": "image",
+      "sha256": "f8053a1b46c7ade1d26fdc9ec59d641eadd7984b400d200dec35fadab9a33c1a",
+      "bytes": 6369,
+      "canonical_source": "res/zhiwu/1/14.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_14",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_14",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2430,
+        "full": 3195,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/15.png",
+      "kind": "image",
+      "sha256": "f4ecac23443dc2e3fcc1e67bb43286334b07fa5978a8d0aec57c5827c5c74e25",
+      "bytes": 6137,
+      "canonical_source": "res/zhiwu/1/15.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_15",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_15",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2657,
+        "full": 2968,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/16.png",
+      "kind": "image",
+      "sha256": "6d8eb755c46aa783460e95114ebaf79284b4269c3d25d9c418a858039e919241",
+      "bytes": 6296,
+      "canonical_source": "res/zhiwu/1/16.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_16",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_16",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2571,
+        "full": 3054,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/17.png",
+      "kind": "image",
+      "sha256": "a3780380b50eac7ce7ca114a4f78923d709a8972778e538d40d1fb8019fcca7b",
+      "bytes": 6509,
+      "canonical_source": "res/zhiwu/1/17.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_17",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_17",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2407,
+        "full": 3218,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/18.png",
+      "kind": "image",
+      "sha256": "1d7c34c97d949d173589ed86c5adfb8deb203b52bd4bc93f6b7117ed1e265077",
+      "bytes": 6509,
+      "canonical_source": "res/zhiwu/1/18.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_18",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_18",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2359,
+        "full": 3266,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/2.png",
+      "kind": "image",
+      "sha256": "e9b87e8eeea7bebba63b1aa192ca6db674587ebfd6008dc818fbafdd13ab1001",
+      "bytes": 6484,
+      "canonical_source": "res/zhiwu/1/2.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_02",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_02",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2386,
+        "full": 3239,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/3.png",
+      "kind": "image",
+      "sha256": "7ba6f8d36aef8c4a0bdad9fa0ee950ec00587dbb5f5e7654ebaabd0f3430ae48",
+      "bytes": 6388,
+      "canonical_source": "res/zhiwu/1/3.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_03",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_03",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2366,
+        "full": 3259,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/4.png",
+      "kind": "image",
+      "sha256": "385a51776abb7b86a251ffc053a354531403d520498c6e4b39270f9689a88b9e",
+      "bytes": 6461,
+      "canonical_source": "res/zhiwu/1/4.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_04",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_04",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2344,
+        "full": 3281,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/5.png",
+      "kind": "image",
+      "sha256": "eda3334b542e921022c9380b6dd6488361228a303e826e979c363690dd7139a3",
+      "bytes": 6337,
+      "canonical_source": "res/zhiwu/1/5.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_05",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_05",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2416,
+        "full": 3209,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/6.png",
+      "kind": "image",
+      "sha256": "030381cacd7ab9ae7f19d9ca202a6e9a55dddcca946d7c88c374d463dfd5fdcf",
+      "bytes": 6210,
+      "canonical_source": "res/zhiwu/1/6.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_06",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_06",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2524,
+        "full": 3101,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/7.png",
+      "kind": "image",
+      "sha256": "311d33d2b4ef7c331fb1c6ef8e51ac536ef43e44e0d12454df8ebb385f6778fd",
+      "bytes": 5999,
+      "canonical_source": "res/zhiwu/1/7.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_07",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_07",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2660,
+        "full": 2965,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/8.png",
+      "kind": "image",
+      "sha256": "c0aeae02a0966e80850775d5c65976875d1a8d99e94b3b56c1f5ee25c10d6d3e",
+      "bytes": 6383,
+      "canonical_source": "res/zhiwu/1/8.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_08",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_08",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2424,
+        "full": 3201,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/1/9.png",
+      "kind": "image",
+      "sha256": "a3814830c9a2d8343f4db652630c9280835d0038637955175746df51461fe661",
+      "bytes": 6388,
+      "canonical_source": "res/zhiwu/1/9.png",
+      "texture": "/Game/PvZ/Textures/T_Sunflower_09",
+      "sprite": "/Game/PvZ/Sprites/S_Sunflower_09",
+      "width": 75,
+      "height": 75,
+      "alpha": {
+        "zero": 2405,
+        "full": 3220,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/1.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/2.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/3.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/4.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/5.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/6.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/7.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/8.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zhiwu/2/9.png",
+      "kind": "image",
+      "sha256": "b077eaa1afdc13bb3448b90b0809f1a1bdd75d64de14457099fb3069f6b31ce2",
+      "bytes": 25098,
+      "canonical_source": "res/Cards/card_3.png",
+      "texture": "/Game/PvZ/Textures/T_res_Cards_card_3",
+      "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3",
+      "width": 64,
+      "height": 90,
+      "alpha": {
+        "zero": 0,
+        "full": 5760,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/1.png",
+      "kind": "image",
+      "sha256": "8d46e5b14ffe46d3f7f106e5b68b7aeb019d82c8211e23bb5243e020bbdc6bd5",
+      "bytes": 9009,
+      "canonical_source": "res/zm/1.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_01",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_01",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19120,
+        "full": 4784,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/10.png",
+      "kind": "image",
+      "sha256": "288c21e4960da49501ba64e1593c08d59cb47be4e46c0f42bc77795bc5c1a620",
+      "bytes": 8565,
+      "canonical_source": "res/zm/10.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_10",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_10",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19455,
+        "full": 4449,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/11.png",
+      "kind": "image",
+      "sha256": "711d43c0caa2718a5279d50771a84e5cb714edb6032fe2f542e0e4f62f277fae",
+      "bytes": 8494,
+      "canonical_source": "res/zm/11.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_11",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_11",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19581,
+        "full": 4323,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/12.png",
+      "kind": "image",
+      "sha256": "a518b6caa717a294a4c66428a05484fb9f844e1dea6602429e65eb5b4cb6f005",
+      "bytes": 8453,
+      "canonical_source": "res/zm/12.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_12",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_12",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19563,
+        "full": 4341,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/13.png",
+      "kind": "image",
+      "sha256": "7c4417f202285c88047e7002b6292e57ae2152b0d8c81e71ff1274746fb516b8",
+      "bytes": 8342,
+      "canonical_source": "res/zm/13.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_13",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_13",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19489,
+        "full": 4415,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/14.png",
+      "kind": "image",
+      "sha256": "3748ad35ba221265d5eb706c35b368e69d89b917dd6e1493411b3e13b129fd5f",
+      "bytes": 8685,
+      "canonical_source": "res/zm/14.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_14",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_14",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19414,
+        "full": 4490,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/15.png",
+      "kind": "image",
+      "sha256": "bd5df77a69ed44d3b98ce6bb509fc673a4ddcf40e2be292ddb94307ff41727c6",
+      "bytes": 8700,
+      "canonical_source": "res/zm/15.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_15",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_15",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19499,
+        "full": 4405,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/16.png",
+      "kind": "image",
+      "sha256": "955b8bb904edef88011242e0aeb8b6215e9bee32b4908c8af68f2ad71a0adfaf",
+      "bytes": 8700,
+      "canonical_source": "res/zm/16.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_16",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_16",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19499,
+        "full": 4405,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/17.png",
+      "kind": "image",
+      "sha256": "a3e1e80752e23794dbb8ec8abddb55dea4343170f09cb255fc5f892ba0d159cd",
+      "bytes": 8552,
+      "canonical_source": "res/zm/17.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_17",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_17",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19542,
+        "full": 4362,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/18.png",
+      "kind": "image",
+      "sha256": "d0b4a89edabec9ef6209782fac52ab998491c11328ced4ddbe94b940fb4c6e4b",
+      "bytes": 8427,
+      "canonical_source": "res/zm/18.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_18",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_18",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19517,
+        "full": 4387,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/19.png",
+      "kind": "image",
+      "sha256": "a04f64582e7c16d5a198ddd8bddb19b375415e5c73e661f1394d3c1bf9bdbc4b",
+      "bytes": 8649,
+      "canonical_source": "res/zm/19.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_19",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_19",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19310,
+        "full": 4594,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/2.png",
+      "kind": "image",
+      "sha256": "6ee32b9990bdb54e4e3c026d86c00e5b91a625f32e3f50682a93191fecd10080",
+      "bytes": 9117,
+      "canonical_source": "res/zm/2.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_02",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_02",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19126,
+        "full": 4778,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/20.png",
+      "kind": "image",
+      "sha256": "dafcffaf86acfdf8f1fc9ab192197dc9492591129cf38774005cb4227a81c297",
+      "bytes": 8768,
+      "canonical_source": "res/zm/20.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_20",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_20",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19275,
+        "full": 4629,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/21.png",
+      "kind": "image",
+      "sha256": "b68ef9efb0e27b85e89d9fdacb257bd65bdf38271c6a4eb89c600e0a995b9c48",
+      "bytes": 9066,
+      "canonical_source": "res/zm/21.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_21",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_21",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19088,
+        "full": 4816,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/22.png",
+      "kind": "image",
+      "sha256": "ff24697470bbd4f3c76f7c93226e5e9ccccc49bd5565c4b6c4c88718c2c94cce",
+      "bytes": 9199,
+      "canonical_source": "res/zm/22.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_22",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_22",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19098,
+        "full": 4806,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/3.png",
+      "kind": "image",
+      "sha256": "767dd547c6a030f6f07266e9b065efdd4d25478f81bc1b49a3d555e48777dc7c",
+      "bytes": 8885,
+      "canonical_source": "res/zm/3.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_03",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_03",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19142,
+        "full": 4762,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/4.png",
+      "kind": "image",
+      "sha256": "94a3f80a0d7fcfeb321b50884072ed6a7cd4e5023f86dfb51c942ab4cc6449d9",
+      "bytes": 8898,
+      "canonical_source": "res/zm/4.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_04",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_04",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19189,
+        "full": 4715,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/5.png",
+      "kind": "image",
+      "sha256": "b54297b7703ae6c758176bbfc568bd632ab8ddc83d8dfd9f49453caba6d158b9",
+      "bytes": 8918,
+      "canonical_source": "res/zm/5.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_05",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_05",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19203,
+        "full": 4701,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/6.png",
+      "kind": "image",
+      "sha256": "c4f1ea51e2e118ff99a7c5b0a465b0aed63a467dab040778f1b6c9b1063803a5",
+      "bytes": 8678,
+      "canonical_source": "res/zm/6.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_06",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_06",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19230,
+        "full": 4674,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/7.png",
+      "kind": "image",
+      "sha256": "ddbd4db361c9bd35724b0bf0208486109e1e39e932976bf73629909af8e14cba",
+      "bytes": 8731,
+      "canonical_source": "res/zm/7.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_07",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_07",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19225,
+        "full": 4679,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/8.png",
+      "kind": "image",
+      "sha256": "26443bda3e2c78d19059a2ab5c0d56c56b05638572eab7dd7c5c7821d1de2988",
+      "bytes": 8583,
+      "canonical_source": "res/zm/8.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_08",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_08",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19273,
+        "full": 4631,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm/9.png",
+      "kind": "image",
+      "sha256": "a4a44a8722b611543fa9e9897d9645cba2a774bbb2365b13bb15cc656215a2a0",
+      "bytes": 8507,
+      "canonical_source": "res/zm/9.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieWalk_09",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_09",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19408,
+        "full": 4496,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/1.png",
+      "kind": "image",
+      "sha256": "3dabdbc3a62c99475959eba656d3db8408a397bb2fc641cc02bfd55ae4fb35cf",
+      "bytes": 8355,
+      "canonical_source": "res/zm_eat/1.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_01",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_01",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18954,
+        "full": 4950,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/10.png",
+      "kind": "image",
+      "sha256": "8f5988933667e3102e39b45f41a746b281732fdb77aeb34da2ce97b5ea999558",
+      "bytes": 8290,
+      "canonical_source": "res/zm_eat/10.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_10",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_10",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18988,
+        "full": 4916,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/11.png",
+      "kind": "image",
+      "sha256": "9ca2e0c73db97e8c9a97ccbcbd8f7eb23543cb61639c97995e1826607215a98a",
+      "bytes": 8389,
+      "canonical_source": "res/zm_eat/11.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_11",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_11",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18877,
+        "full": 5027,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/12.png",
+      "kind": "image",
+      "sha256": "b82fe456b4dd98abc5297d610d1e7ffbdb3c803ce9225414593f4d87a7e45335",
+      "bytes": 8343,
+      "canonical_source": "res/zm_eat/12.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_12",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_12",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18961,
+        "full": 4943,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/13.png",
+      "kind": "image",
+      "sha256": "ceeb34e367fd2087a226643b2cc02788c8636e2e335e81deadc0a198ab120172",
+      "bytes": 8214,
+      "canonical_source": "res/zm_eat/13.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_13",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_13",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18969,
+        "full": 4935,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/14.png",
+      "kind": "image",
+      "sha256": "e90c03f9f4b4fb58197a5db57987b27411a5640224727e8975137ed4877fab85",
+      "bytes": 8082,
+      "canonical_source": "res/zm_eat/14.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_14",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_14",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19089,
+        "full": 4815,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/15.png",
+      "kind": "image",
+      "sha256": "c3820e760c9c1f96c60e2b20376b4e38de4280cad269c09aa49e52337628187a",
+      "bytes": 8109,
+      "canonical_source": "res/zm_eat/15.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_15",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_15",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19123,
+        "full": 4781,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/16.png",
+      "kind": "image",
+      "sha256": "396b5f808b179c543674220be776c252de4a56b60d698e3187edbdca9256be36",
+      "bytes": 8168,
+      "canonical_source": "res/zm_eat/16.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_16",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_16",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19063,
+        "full": 4841,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/17.png",
+      "kind": "image",
+      "sha256": "d3b7f2feb3754f65f55ad978d78eb85d5701fb6660d68f3d3425b885507718bd",
+      "bytes": 8233,
+      "canonical_source": "res/zm_eat/17.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_17",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_17",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19081,
+        "full": 4823,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/18.png",
+      "kind": "image",
+      "sha256": "a448754fef92959cce25d739b1ea59add1fc5c6d81193d58878632232d3e90e7",
+      "bytes": 7796,
+      "canonical_source": "res/zm_eat/18.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_18",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_18",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19166,
+        "full": 4738,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/19.png",
+      "kind": "image",
+      "sha256": "1a8c092c73c3ea1efc5af3f6325b7b1397f40831ad9a581827722a92bd3ab568",
+      "bytes": 7882,
+      "canonical_source": "res/zm_eat/19.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_19",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_19",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19143,
+        "full": 4761,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/2.png",
+      "kind": "image",
+      "sha256": "cd150e4e67f56daac514b7f05132093d45e405b98a8c9ac793d189d46e56d19c",
+      "bytes": 8211,
+      "canonical_source": "res/zm_eat/2.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_02",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_02",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18981,
+        "full": 4923,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/20.png",
+      "kind": "image",
+      "sha256": "765f58b2ceba7bed644e686fea29d177b2e8e7ef7e6cb861df3da1913bdc3e43",
+      "bytes": 8077,
+      "canonical_source": "res/zm_eat/20.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_20",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_20",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19146,
+        "full": 4758,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/21.png",
+      "kind": "image",
+      "sha256": "297d67531f0a6786d9fefcc1edc754f995340e402b2a64b240c5913b986e8363",
+      "bytes": 8357,
+      "canonical_source": "res/zm_eat/21.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_21",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_21",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 18919,
+        "full": 4985,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/3.png",
+      "kind": "image",
+      "sha256": "97db43299d85fdb8efcc3105f4a24c941e8b86599efb6fba25a511ad1f28e186",
+      "bytes": 8142,
+      "canonical_source": "res/zm_eat/3.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_03",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_03",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19160,
+        "full": 4744,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/4.png",
+      "kind": "image",
+      "sha256": "bc57c13271c0242983f2b73ba689a82c6ae47905b687bb87d49bd68b53f7b946",
+      "bytes": 8149,
+      "canonical_source": "res/zm_eat/4.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_04",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_04",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19158,
+        "full": 4746,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/5.png",
+      "kind": "image",
+      "sha256": "d651fca48869ba8c445cac31f5f9d971299a73d908eb7bd6aeb96e8e5d74054a",
+      "bytes": 8277,
+      "canonical_source": "res/zm_eat/5.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_05",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_05",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19051,
+        "full": 4853,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/6.png",
+      "kind": "image",
+      "sha256": "65e83253afcd6fc38c99f181336e7785aa6da3d91272d9122a21306cb88a4b04",
+      "bytes": 8183,
+      "canonical_source": "res/zm_eat/6.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_06",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_06",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19089,
+        "full": 4815,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/7.png",
+      "kind": "image",
+      "sha256": "ab2d74a0416e5043424bd243b59a41b21bc29c98e48eb64be7ba67488fde4737",
+      "bytes": 7941,
+      "canonical_source": "res/zm_eat/7.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_07",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_07",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19214,
+        "full": 4690,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/8.png",
+      "kind": "image",
+      "sha256": "1971521e4ce63f154a39e0ff71a8d24eb30529e8971205c6c67579ae12346433",
+      "bytes": 8032,
+      "canonical_source": "res/zm_eat/8.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_08",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_08",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19116,
+        "full": 4788,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_eat/9.png",
+      "kind": "image",
+      "sha256": "cab7dd0b08c712a6d1a11abffe2b88c001c27b0a31ca700e67b99c1495d03634",
+      "bytes": 7981,
+      "canonical_source": "res/zm_eat/9.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieEat_09",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieEat_09",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19159,
+        "full": 4745,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/1.png",
+      "kind": "image",
+      "sha256": "f9d0e972a1e48dcf604280c0b16e2671e659ff1e1dde7aaa562bf0477ab6d0c6",
+      "bytes": 9783,
+      "canonical_source": "res/zm_stand/1.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_01",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_01",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19222,
+        "full": 4682,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/10.png",
+      "kind": "image",
+      "sha256": "9d5aec85822369736d711a1fc731f8746449c2f6775f53ab594fc042db916041",
+      "bytes": 9976,
+      "canonical_source": "res/zm_stand/10.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_10",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_10",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19252,
+        "full": 4652,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/11.png",
+      "kind": "image",
+      "sha256": "f641dfd47cebead1f8359bbe6dd857a55a849d09ad16c67b1dfc34ef147d4621",
+      "bytes": 9766,
+      "canonical_source": "res/zm_stand/11.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_11",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_11",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19240,
+        "full": 4664,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/2.png",
+      "kind": "image",
+      "sha256": "d81d932a377c080266a70612f1796689aaa78865618227b3a6d4d160d9d5054c",
+      "bytes": 9910,
+      "canonical_source": "res/zm_stand/2.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_02",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_02",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19237,
+        "full": 4667,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/3.png",
+      "kind": "image",
+      "sha256": "bbdd4386b5f7330910866ecab561bc272cdd00ba362f1632a81b65a2137a8cee",
+      "bytes": 9921,
+      "canonical_source": "res/zm_stand/3.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_03",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_03",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19231,
+        "full": 4673,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/4.png",
+      "kind": "image",
+      "sha256": "0df8491d433111cfb40fec8f3100e78ccffc648ed9e8101a5ac288a9d270d9f1",
+      "bytes": 9921,
+      "canonical_source": "res/zm_stand/4.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_04",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_04",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19231,
+        "full": 4673,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/5.png",
+      "kind": "image",
+      "sha256": "77841a6b57540616a8e386be9eeaa8837a71795887a840498165c1a7ef7c8743",
+      "bytes": 9833,
+      "canonical_source": "res/zm_stand/5.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_05",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_05",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19228,
+        "full": 4676,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/6.png",
+      "kind": "image",
+      "sha256": "59830769a6692707dfa9cf8cce3e9634b5a65b93189fb1a0b0cd7ca7cc7cd388",
+      "bytes": 9833,
+      "canonical_source": "res/zm_stand/6.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_06",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_06",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19228,
+        "full": 4676,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/7.png",
+      "kind": "image",
+      "sha256": "c0a2ad102af57af2e3a8ea8f74d0db950f640e86604413f622fa3369c9badef8",
+      "bytes": 9808,
+      "canonical_source": "res/zm_stand/7.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_07",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_07",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19241,
+        "full": 4663,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/8.png",
+      "kind": "image",
+      "sha256": "7bf9bb9f3c5714eab276d2b44bf85b09be6cf8c451c7a09676ca31d568c8e177",
+      "bytes": 9808,
+      "canonical_source": "res/zm_stand/8.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_08",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_08",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19241,
+        "full": 4663,
+        "partial": 0
+      }
+    },
+    {
+      "source": "res/zm_stand/9.png",
+      "kind": "image",
+      "sha256": "185a3f01771e4e888a8d2b6706623e6129dfb2bd0746a52d6d1ba1b66aa4b0ca",
+      "bytes": 9748,
+      "canonical_source": "res/zm_stand/9.png",
+      "texture": "/Game/PvZ/Textures/T_ZombieStand_09",
+      "sprite": "/Game/PvZ/Sprites/S_ZombieStand_09",
+      "width": 166,
+      "height": 144,
+      "alpha": {
+        "zero": 19248,
+        "full": 4656,
+        "partial": 0
+      }
+    },
+    {
+      "source": "resx/begin.mp3",
+      "kind": "audio",
+      "sha256": "827146a3c481d8f023e1b435f333cd7fa6b486bdc6999da55ec9899cf6a2f8eb",
+      "bytes": 68443,
+      "canonical_source": "resx/begin.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_begin"
+    },
+    {
+      "source": "resx/eat.mp3",
+      "kind": "audio",
+      "sha256": "52e95a3c1ad6289950f88a2fe4fabadaed4e6fc354cf32a349ad271660eeb8a5",
+      "bytes": 17452,
+      "canonical_source": "resx/eat.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_eat"
+    },
+    {
+      "source": "resx/game.mp3",
+      "kind": "audio",
+      "sha256": "193d8c77a4b3199f28958cc9f2ee775f97011a208766989464db67001bdaa9c2",
+      "bytes": 912651,
+      "canonical_source": "resx/game.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_game"
+    },
+    {
+      "source": "resx/lose.mp3",
+      "kind": "audio",
+      "sha256": "deb0944c8131ffa95bbde527dff246ca6bdef3f320846c0eedf214304cdeb3ef",
+      "bytes": 43720,
+      "canonical_source": "resx/lose.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_lose"
+    },
+    {
+      "source": "resx/menu.MP3",
+      "kind": "audio",
+      "sha256": "283f77c47d1b43d8cf243cfa992eb58fa074c1b989e71db72863ce07a4f0d967",
+      "bytes": 2931983,
+      "canonical_source": "resx/menu.MP3",
+      "sound": "/Game/PvZ/Audio/SW_resx_menu"
+    },
+    {
+      "source": "resx/seedlift.mp3",
+      "kind": "audio",
+      "sha256": "a0c2cb95a1deb9ec435f676e6eddc17e7fb88ae1646ec070004e278a53453669",
+      "bytes": 6511,
+      "canonical_source": "resx/seedlift.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_seedlift"
+    },
+    {
+      "source": "resx/splat.mp3",
+      "kind": "audio",
+      "sha256": "feb0caf048dde4ed5fc552b8101c673088c4542f13dd6d5c55fdde1bd7c09963",
+      "bytes": 6511,
+      "canonical_source": "resx/splat.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_splat"
+    },
+    {
+      "source": "resx/win.mp3",
+      "kind": "audio",
+      "sha256": "bd818b60fee81abb834037d662227c6e2829ea86f37b2d237a9b818573f2d669",
+      "bytes": 38287,
+      "canonical_source": "resx/win.mp3",
+      "sound": "/Game/PvZ/Audio/SW_resx_win"
+    }
+  ],
+  "animations": [
+    {
+      "id": "Peashooter",
+      "source_directory": "res/zhiwu/0",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_Peashooter",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zhiwu/0/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_01"
+        },
+        {
+          "number": 2,
+          "source": "res/zhiwu/0/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_02"
+        },
+        {
+          "number": 3,
+          "source": "res/zhiwu/0/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_03"
+        },
+        {
+          "number": 4,
+          "source": "res/zhiwu/0/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_04"
+        },
+        {
+          "number": 5,
+          "source": "res/zhiwu/0/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_05"
+        },
+        {
+          "number": 6,
+          "source": "res/zhiwu/0/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_06"
+        },
+        {
+          "number": 7,
+          "source": "res/zhiwu/0/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_07"
+        },
+        {
+          "number": 8,
+          "source": "res/zhiwu/0/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_08"
+        },
+        {
+          "number": 9,
+          "source": "res/zhiwu/0/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_09"
+        },
+        {
+          "number": 10,
+          "source": "res/zhiwu/0/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_10"
+        },
+        {
+          "number": 11,
+          "source": "res/zhiwu/0/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_11"
+        },
+        {
+          "number": 12,
+          "source": "res/zhiwu/0/12.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_12"
+        },
+        {
+          "number": 13,
+          "source": "res/zhiwu/0/13.png",
+          "sprite": "/Game/PvZ/Sprites/S_Peashooter_13"
+        }
+      ]
+    },
+    {
+      "id": "Sunflower",
+      "source_directory": "res/zhiwu/1",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_Sunflower",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zhiwu/1/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_01"
+        },
+        {
+          "number": 2,
+          "source": "res/zhiwu/1/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_02"
+        },
+        {
+          "number": 3,
+          "source": "res/zhiwu/1/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_03"
+        },
+        {
+          "number": 4,
+          "source": "res/zhiwu/1/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_04"
+        },
+        {
+          "number": 5,
+          "source": "res/zhiwu/1/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_05"
+        },
+        {
+          "number": 6,
+          "source": "res/zhiwu/1/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_06"
+        },
+        {
+          "number": 7,
+          "source": "res/zhiwu/1/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_07"
+        },
+        {
+          "number": 8,
+          "source": "res/zhiwu/1/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_08"
+        },
+        {
+          "number": 9,
+          "source": "res/zhiwu/1/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_09"
+        },
+        {
+          "number": 10,
+          "source": "res/zhiwu/1/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_10"
+        },
+        {
+          "number": 11,
+          "source": "res/zhiwu/1/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_11"
+        },
+        {
+          "number": 12,
+          "source": "res/zhiwu/1/12.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_12"
+        },
+        {
+          "number": 13,
+          "source": "res/zhiwu/1/13.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_13"
+        },
+        {
+          "number": 14,
+          "source": "res/zhiwu/1/14.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_14"
+        },
+        {
+          "number": 15,
+          "source": "res/zhiwu/1/15.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_15"
+        },
+        {
+          "number": 16,
+          "source": "res/zhiwu/1/16.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_16"
+        },
+        {
+          "number": 17,
+          "source": "res/zhiwu/1/17.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_17"
+        },
+        {
+          "number": 18,
+          "source": "res/zhiwu/1/18.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sunflower_18"
+        }
+      ]
+    },
+    {
+      "id": "WallnutCardPlaceholder",
+      "source_directory": "res/zhiwu/2",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": true,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_WallnutCardPlaceholder",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zhiwu/2/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 2,
+          "source": "res/zhiwu/2/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 3,
+          "source": "res/zhiwu/2/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 4,
+          "source": "res/zhiwu/2/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 5,
+          "source": "res/zhiwu/2/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 6,
+          "source": "res/zhiwu/2/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 7,
+          "source": "res/zhiwu/2/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 8,
+          "source": "res/zhiwu/2/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        },
+        {
+          "number": 9,
+          "source": "res/zhiwu/2/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_res_Cards_card_3"
+        }
+      ]
+    },
+    {
+      "id": "ZombieWalk",
+      "source_directory": "res/zm",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_ZombieWalk",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zm/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_01"
+        },
+        {
+          "number": 2,
+          "source": "res/zm/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_02"
+        },
+        {
+          "number": 3,
+          "source": "res/zm/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_03"
+        },
+        {
+          "number": 4,
+          "source": "res/zm/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_04"
+        },
+        {
+          "number": 5,
+          "source": "res/zm/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_05"
+        },
+        {
+          "number": 6,
+          "source": "res/zm/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_06"
+        },
+        {
+          "number": 7,
+          "source": "res/zm/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_07"
+        },
+        {
+          "number": 8,
+          "source": "res/zm/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_08"
+        },
+        {
+          "number": 9,
+          "source": "res/zm/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_09"
+        },
+        {
+          "number": 10,
+          "source": "res/zm/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_10"
+        },
+        {
+          "number": 11,
+          "source": "res/zm/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_11"
+        },
+        {
+          "number": 12,
+          "source": "res/zm/12.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_12"
+        },
+        {
+          "number": 13,
+          "source": "res/zm/13.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_13"
+        },
+        {
+          "number": 14,
+          "source": "res/zm/14.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_14"
+        },
+        {
+          "number": 15,
+          "source": "res/zm/15.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_15"
+        },
+        {
+          "number": 16,
+          "source": "res/zm/16.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_16"
+        },
+        {
+          "number": 17,
+          "source": "res/zm/17.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_17"
+        },
+        {
+          "number": 18,
+          "source": "res/zm/18.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_18"
+        },
+        {
+          "number": 19,
+          "source": "res/zm/19.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_19"
+        },
+        {
+          "number": 20,
+          "source": "res/zm/20.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_20"
+        },
+        {
+          "number": 21,
+          "source": "res/zm/21.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_21"
+        },
+        {
+          "number": 22,
+          "source": "res/zm/22.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieWalk_22"
+        }
+      ]
+    },
+    {
+      "id": "ZombieEat",
+      "source_directory": "res/zm_eat",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_ZombieEat",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zm_eat/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_01"
+        },
+        {
+          "number": 2,
+          "source": "res/zm_eat/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_02"
+        },
+        {
+          "number": 3,
+          "source": "res/zm_eat/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_03"
+        },
+        {
+          "number": 4,
+          "source": "res/zm_eat/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_04"
+        },
+        {
+          "number": 5,
+          "source": "res/zm_eat/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_05"
+        },
+        {
+          "number": 6,
+          "source": "res/zm_eat/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_06"
+        },
+        {
+          "number": 7,
+          "source": "res/zm_eat/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_07"
+        },
+        {
+          "number": 8,
+          "source": "res/zm_eat/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_08"
+        },
+        {
+          "number": 9,
+          "source": "res/zm_eat/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_09"
+        },
+        {
+          "number": 10,
+          "source": "res/zm_eat/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_10"
+        },
+        {
+          "number": 11,
+          "source": "res/zm_eat/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_11"
+        },
+        {
+          "number": 12,
+          "source": "res/zm_eat/12.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_12"
+        },
+        {
+          "number": 13,
+          "source": "res/zm_eat/13.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_13"
+        },
+        {
+          "number": 14,
+          "source": "res/zm_eat/14.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_14"
+        },
+        {
+          "number": 15,
+          "source": "res/zm_eat/15.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_15"
+        },
+        {
+          "number": 16,
+          "source": "res/zm_eat/16.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_16"
+        },
+        {
+          "number": 17,
+          "source": "res/zm_eat/17.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_17"
+        },
+        {
+          "number": 18,
+          "source": "res/zm_eat/18.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_18"
+        },
+        {
+          "number": 19,
+          "source": "res/zm_eat/19.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_19"
+        },
+        {
+          "number": 20,
+          "source": "res/zm_eat/20.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_20"
+        },
+        {
+          "number": 21,
+          "source": "res/zm_eat/21.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieEat_21"
+        }
+      ]
+    },
+    {
+      "id": "ZombieStand",
+      "source_directory": "res/zm_stand",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_ZombieStand",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/zm_stand/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_01"
+        },
+        {
+          "number": 2,
+          "source": "res/zm_stand/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_02"
+        },
+        {
+          "number": 3,
+          "source": "res/zm_stand/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_03"
+        },
+        {
+          "number": 4,
+          "source": "res/zm_stand/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_04"
+        },
+        {
+          "number": 5,
+          "source": "res/zm_stand/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_05"
+        },
+        {
+          "number": 6,
+          "source": "res/zm_stand/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_06"
+        },
+        {
+          "number": 7,
+          "source": "res/zm_stand/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_07"
+        },
+        {
+          "number": 8,
+          "source": "res/zm_stand/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_08"
+        },
+        {
+          "number": 9,
+          "source": "res/zm_stand/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_09"
+        },
+        {
+          "number": 10,
+          "source": "res/zm_stand/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_10"
+        },
+        {
+          "number": 11,
+          "source": "res/zm_stand/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_ZombieStand_11"
+        }
+      ]
+    },
+    {
+      "id": "Sun",
+      "source_directory": "res/sunshine",
+      "fps": 8.0,
+      "original_fps": "unknown",
+      "placeholder": false,
+      "flipbook": "/Game/PvZ/Flipbooks/FB_Sun",
+      "frames": [
+        {
+          "number": 1,
+          "source": "res/sunshine/1.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_01"
+        },
+        {
+          "number": 2,
+          "source": "res/sunshine/2.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_02"
+        },
+        {
+          "number": 3,
+          "source": "res/sunshine/3.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_03"
+        },
+        {
+          "number": 4,
+          "source": "res/sunshine/4.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_04"
+        },
+        {
+          "number": 5,
+          "source": "res/sunshine/5.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_05"
+        },
+        {
+          "number": 6,
+          "source": "res/sunshine/6.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_06"
+        },
+        {
+          "number": 7,
+          "source": "res/sunshine/7.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_07"
+        },
+        {
+          "number": 8,
+          "source": "res/sunshine/8.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_08"
+        },
+        {
+          "number": 9,
+          "source": "res/sunshine/9.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_09"
+        },
+        {
+          "number": 10,
+          "source": "res/sunshine/10.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_10"
+        },
+        {
+          "number": 11,
+          "source": "res/sunshine/11.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_11"
+        },
+        {
+          "number": 12,
+          "source": "res/sunshine/12.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_12"
+        },
+        {
+          "number": 13,
+          "source": "res/sunshine/13.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_13"
+        },
+        {
+          "number": 14,
+          "source": "res/sunshine/14.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_14"
+        },
+        {
+          "number": 15,
+          "source": "res/sunshine/15.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_15"
+        },
+        {
+          "number": 16,
+          "source": "res/sunshine/16.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_16"
+        },
+        {
+          "number": 17,
+          "source": "res/sunshine/17.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_17"
+        },
+        {
+          "number": 18,
+          "source": "res/sunshine/18.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_18"
+        },
+        {
+          "number": 19,
+          "source": "res/sunshine/19.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_19"
+        },
+        {
+          "number": 20,
+          "source": "res/sunshine/20.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_20"
+        },
+        {
+          "number": 21,
+          "source": "res/sunshine/21.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_21"
+        },
+        {
+          "number": 22,
+          "source": "res/sunshine/22.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_22"
+        },
+        {
+          "number": 23,
+          "source": "res/sunshine/23.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_23"
+        },
+        {
+          "number": 24,
+          "source": "res/sunshine/24.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_24"
+        },
+        {
+          "number": 25,
+          "source": "res/sunshine/25.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_25"
+        },
+        {
+          "number": 26,
+          "source": "res/sunshine/26.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_26"
+        },
+        {
+          "number": 27,
+          "source": "res/sunshine/27.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_27"
+        },
+        {
+          "number": 28,
+          "source": "res/sunshine/28.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_28"
+        },
+        {
+          "number": 29,
+          "source": "res/sunshine/29.png",
+          "sprite": "/Game/PvZ/Sprites/S_Sun_29"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "All original media included, including potentially unused files.",
+    "Exact byte duplicates share canonical UE assets; every original path is retained.",
+    "Original FPS unknown; 8 fps is provisional import configuration.",
+    "Wallnut frames are duplicates of the card, not a field character; M11 owns replacement.",
+    "Original menu.MP3 case preserved; destination uses a stable case-independent identity."
+  ]
+}

@@ -2,7 +2,7 @@
 
 基于现有 Windows 原型及素材，在 Unreal Engine 5.8.2 中重建二维塔防游戏。采用 C++、Paper 2D、UMG，目标平台为 Windows x64。
 
-当前阶段：**M02 少量素材导入试验已通过本机样本验收**。M00、M01 已完成，M03 未开始。样本范围和限制见 docs/validation/M02.md；当前没有玩法。
+当前阶段：**M03 完整资源导入及清单已通过本机验收**。M00–M03 已完成，M04 未开始。150 个原媒体映射至 275 个生产资源，重复导入及引用检查通过；当前没有玩法。资源合同见 [ASSETS.md](docs/ASSETS.md)，结果和限制见 [M03 验证记录](docs/validation/M03.md)。
 
 ## 从这里继续
 
@@ -40,4 +40,4 @@
 - `Source`、`Config`、`Content`、`Scripts` 和 `docs` 是交付内容。
 - 不提交 `Binaries`、`Intermediate`、`Saved`、派生缓存或原版调试运行库。
 - 本机旧原型位于仓库外的同级 `..\protptype`。它不是构建依赖，M00 不修改它。
-- 后续资源导入在 M02 / M03 开展；旧原型没有源码，无法承诺逐行恢复原代码。
+- M02 试验和 M03 全量导入已完成；生产资源见 `/Game/PvZ` 和 `SourceAssets/M03/manifest.json`。旧原型没有源码，无法承诺逐行恢复原代码。
